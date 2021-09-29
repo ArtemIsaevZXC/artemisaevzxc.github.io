@@ -1,0 +1,201 @@
+.header 
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 103%;
+  height: 160px;
+  margin-left: -8px;
+  margin-top: -10px;
+  margin-bottom: 40px;
+  background-color: #007fff;
+  border-bottom: 3px dashed #2a52be;
+}
+
+#heading
+{
+    font-family: serif, Times new Roman;
+	color: #dcf1fa;
+	font-size: 22pt;
+	text-shadow: #fff -1px -1px 0, #333 1px 1px 0;
+	
+}
+.minecraft
+{
+	width: 100px;
+	height: 20px;
+}
+nav 
+{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  width: 98%;
+  padding-right: -30px;
+  border: 7px groove #0e688f;
+  background-color: #75c1ff;
+  margin: auto;
+  font-size: 1.3em;
+ /* padding: 15px 0px 15px 0px;*/
+}
+
+main 
+{
+	display: flex;
+/*	max-width: 960px;*/
+	flex-flow: column nowrap;
+	justify-content: center;
+	width: 101%;
+	margin-left: -15px;
+	background-color:#aaf0d1;
+	font-color: #aaf0d1;
+	border: 7px groove #0e688f;
+	font-family: serif, Times new Roman;
+	font-size: 1.2em;
+}
+#list
+{
+  margin: auto 0;
+}
+
+#form 
+{
+  order: 1;
+}
+#table
+ {
+  order: 2;
+  margin-left: 15px;
+  border-collapse: collapse;
+  order
+}
+
+.header_table 
+{
+	width: 108px;
+	height: 60px;
+    background-color: #75c1ff;
+    border: 2px dashed #003841;
+}
+body 
+{
+  background-image:url(https://img.fonwall.ru/o/2p/canada-moraine-lake-ozero-gory.jpg);
+  font-family: serif, Times new Roman;
+  font-size: 17px;
+  font-color: 
+}
+.table
+{
+   background-color: #fcb6f1;
+}
+.table1
+{
+background-color: #24a4ff;
+}
+th {
+padding: px;
+border: 1px groove red;
+}
+
+footer 
+{
+  display: block;
+  width: 100%;
+  height: 30px;
+  padding: 20px 13px 10px 19px;	
+  background-color: #75c1ff;
+  vertical-align: center;
+}
+
+.table_form
+{
+	display: flex;
+	flex-direction: column;
+	font-size: 1.5em;
+	margin-left: 20px;
+}
+.FrancePic
+{
+	height: 100px;
+	width: 120px;
+}
+.Ocean
+{
+	height: 100px;
+	width: 120px;
+}
+@media screen and (min-width: 800px){
+	.header{
+		justify-content: center;
+	}
+	#heading{
+		font-size: 45pt;
+	}
+	nav{
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: center;
+		width: 947px;
+		height: 30px;
+		padding: 15px 0px 15px 0px;
+	}
+	main{
+		max-width: 960px;
+		margin: auto;
+	}
+	#form{
+		order: 2;
+	}
+	#table{
+		order: 1;
+	}
+	.table_form
+	{
+		font-size: 1em;
+	}
+	nav{
+		font-size: 1.2em;
+	}
+	.header_table{
+		width: 108px;
+	}
+	.FrancePic
+	{
+		height: 400px;
+		width: 500px;
+	}
+	.Ocean
+	{
+		height: 400px;
+		width: 500px;
+	}
+	.minecraft
+	{
+		width: 400px;
+		height: 100px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
