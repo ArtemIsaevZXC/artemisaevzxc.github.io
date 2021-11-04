@@ -1,4 +1,3 @@
-console.log("Test");
 let num1 = document.getElementById("n1");
 let num2 = document.getElementById("n2");
 let result;
