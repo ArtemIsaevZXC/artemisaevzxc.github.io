@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script defer src="myscript.js"></script> 
+    <title>Задание 6</title>
+</head>
+<body>
+    <div class="body">
+		<h1> Первый калькулятор </h1>
+		<p> Количество: <input type = "text" id = "n1"> </p>
+		<p> Стоимость одного экземпляра: <input type = "text" id = "n2"> </p>
+		<button type = "button" id = "button" > Рассчитать </button>
+		<p id = "result0"> </p>
+	<br /> <br />
+        <div id="calc">
+            <form class="container row">
+                <div class="form-group">
+                    <label> Калькулятор стоимости товара</label>
+
+                        <select name="myselect" class="form-control form-control-lg">
+                            <option value="1" selected> Товар №1 </option>
+                            <option value="2">Товар №2 </option>
+                            <option value="3">Товар №3 </option>
+                        </select> 
+
+                        <div class="pis d-none" id="myradios">
+							
+							<br />
+                            <div class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" id="radio1" name="myradio" value="r1">
+                                <label class="custom-control-label" for="radio1"> Первая опция </label>
+                            </div>
+                            
+                            <div class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" id="radio2" name="myradio" value="r2">
+                                <label class="custom-control-label" for="radio2"> Вторая опция </label>
+                            </div>
+                            
+                            <div class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" id="radio3" name="myradio" value="r3">
+                                <label class="custom-control-label" for="radio3"> Третья опция </label>
+                            </div>
+							<br />
+                        </div>
+                        <div id="mycheck" class="d-none">
+							
+							<br />
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="check" name="mycheck">
+                                <label class="custom-control-label" for="check"> Четвертая опция </label>
+                            </div>
+							<br />
+                        </div>
+                    <input name="count" type="text" class="form-control form-control-lg" id="count" placeholder="Введите количество товара." >         
+                </div>
+              
+            </form>   
+            <strong> Результат: </strong>
+        <div class="result" id="result"></div> 
+	</div>
+</div>
+</body>
+</html>
