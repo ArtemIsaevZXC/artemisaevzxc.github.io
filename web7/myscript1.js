@@ -100,7 +100,7 @@ $(document).ready(function(){
     slidesToScroll:4,
     speed:1000,
     easing:'ease',
-    draggable:false,
+    draggable:true,
     waitForAnimate:true,
     responsive:[
       {
